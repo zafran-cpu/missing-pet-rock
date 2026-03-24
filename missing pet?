@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Missing Pet Rock Poster</title> 
+    <style> 
+        /* Simple background color using words only */ 
+        body { font-family: Arial; background-color: lightblue; margin: 10px; } 
+
+        /* The center container box */ 
+        .main-box {  
+            width: 600px; margin: auto; background-color: white;  
+            padding: 15px; border: 2px solid black;  
+        } 
+
+        /* Title styling */ 
+        header { text-align: center; color: darkblue; } 
+         
+        /* Navigation area with Pet FBI and Email links */ 
+        nav { text-align: center; padding: 5px; background-color: lightgray; } 
+        nav a { margin: 0 10px; text-decoration: none; color: blue; font-weight: bold; } 
+
+        /* Small spacing for the intro text */ 
+        .info { margin: 10px 0; } 
+
+        /* Table for easy form layout */ 
+        table { width: 100%; } 
+        td { padding: 3px; font-weight: bold; } 
+
+        /* Blue and bold submit button */ 
+        .btn-submit {  
+            color: blue; font-weight: bold; border: 1px solid gray;  
+            padding: 5px; background-color: white;  
+        } 
+
+        /* Footer section */ 
+        footer {  
+            text-align: center; margin-top: 15px;  
+            background-color: lightgray; padding: 10px;  
+        } 
+    </style> 
+</head> 
+<body> 
+
+    <div class="main-box"> 
+         
+        <header> 
+            <h1>Missing Pet Poster � Lost Your Pet Rock?</h1> 
+        </header> 
+
+        <nav> 
+            <a href="#">Home</a> 
+            <a href="https://petfbi.org/">Post Details</a> 
+            <a href="mailto:namehalima899@gmail.com">Contact</a> 
+        </nav> 
+
+        <section class="info"> 
+            <p>This page allows people to post information if they lose their pet rock so others can help find it.</p> 
+        </section> 
+
+        <section> 
+            <h2>Post Lost Pet Details</h2> 
+            <form> 
+                <table> 
+                    <tr> 
+                        <td>Owner Name:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Pet Rock Name:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Rock Color:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Last Seen:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Description:</td> 
+                        <td><textarea rows="3" cols="25"></textarea></td> 
+                    </tr> 
+                    <tr> 
+                        <td></td> 
+                        <td><button type="submit" class="btn-submit">Submit</button></td> 
+                    </tr> 
+                </table> 
+            </form> 
+        </section> 
+
+        <footer> 
+            <p>Grade 11 Web Design Assignment</p> 
+        </footer> 
+
+    </div> 
+
+</body> 
+</html>
